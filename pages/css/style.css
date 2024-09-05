@@ -55,7 +55,7 @@ a{
 p{
     padding-bottom: 20px;
 }
-.container2{
+#about{
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -65,4 +65,13 @@ p{
 }
 .column1{
     margin-left:190px;
+}
+
+#skills{
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+}
+#contact{
+    font-size: 30px;
 }
