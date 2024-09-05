@@ -62,9 +62,11 @@ p{
 .column2{
     font-size:30px;
     text-align: center;
+    margin-top:300px;
 }
 .column1{
     margin-left:190px;
+    margin-top: 180px;
 }
 
 #skills{
