@@ -76,9 +76,15 @@ button a{
 p{
     padding-bottom: 20px;
 }
+
+/* //about page// */
+
+
+
 .container2{
     display: grid;
     grid-template-columns: 50% 50%;
+    background-color:paleturquoise;
 }
 .column2{
     font-size:30px;
@@ -90,6 +96,12 @@ p{
     margin-left:200px;
     margin-top:200px;
 }
+
+
+/* //skills page// */
+
+
+
 #skills{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -116,9 +128,16 @@ p{
 
 }
 
+
+
+/* //contact page// */
+
+
+
 #contact{
     display: grid;
     grid-template-columns: 50% 50%;
+    background-color: paleturquoise;
 }
 .para1 p{
     text-align: center;
