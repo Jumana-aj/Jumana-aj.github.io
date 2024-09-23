@@ -113,16 +113,18 @@ p{
     
 }
 #skills li{
-    list-style-type: none;
+    list-style-type:circle
 }
 .skil{
-     font-size: 30px;
+     font-size: 50px;
     text-align: center;
     padding: 200px;
     margin-top:130px;
+    
+    
 }
 .image5{
-    padding-top: 30%;
+    padding-top: 40%;
     padding-right: 500%;
     margin-left:250px;
 
