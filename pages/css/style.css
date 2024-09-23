@@ -2,6 +2,9 @@
     margin: 0%;
     padding: 0%;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     overflow-x: hidden;
 }
@@ -24,11 +27,21 @@ body{
 
 
 }
-a{
+nav a{
     color: white;
     text-decoration:none;
    padding-left: 15px;
    
+}
+
+a:hover{
+    color: black;
+}
+
+button a{ 
+    background-color: white;
+    text-decoration: none;
+    color: black;
 }
 
 .content{
