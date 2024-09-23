@@ -37,6 +37,7 @@ nav a{
 
 a:hover{
     color: black;
+    text-decoration: underline;
 }
 
 button a{ 
@@ -163,5 +164,6 @@ p{
 .icons{
     padding-bottom: 50px;
     margin-left: 250px;
+ 
 }
 
