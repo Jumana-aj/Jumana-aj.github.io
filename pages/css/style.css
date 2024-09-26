@@ -21,7 +21,7 @@ body{
 .navbar{
    
     font-size:30px;
-    padding-left:1080px;
+    margin-left: 60%;
     padding-top: 40px;
     position: fixed;
     
@@ -157,6 +157,41 @@ p{
 
 }
 
+/* ==project page==== */
+#projects{
+    text-align: center;
+    display: grid;
+    grid-template-rows:25% 50% 25% ;
+}
+#projects h2{
+    font-size: 3em;
+    padding-top:180px;
+  
+}
+
+.image-box{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-box{
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: rgb(142, 201, 199);
+    transition: .3s;
+   height: 250px;
+   width: 350px;
+   cursor: pointer;
+   
+}
+.img-box img{
+    margin-top:5%;
+}
+.img-box:hover{
+    scale: 1.2;
+}
 
 
 /* //contact page// */
