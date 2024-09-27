@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
@@ -9,22 +10,28 @@ body{
     overflow-x: hidden;
 }
 
+
+
+/* home page */
+
+
+
 .home{
     background-color: rgba(59, 144, 200, 0.788);
 }
 .container{
     height: 100vh;
     display: grid;
-    grid-template-rows: 20vh 80vh;
+    /* grid-template-rows: 20vh 80vh; */
 }
 
 .navbar{
-   
-    font-size:30px;
-    margin-left: 60%;
-    padding-top: 40px;
+    display: flex;
     position: fixed;
-    
+    width: 100vw;
+    justify-content: end;
+    font-size: 30px;
+    padding: 40px;    
 }
 nav a{
     color:white;
@@ -35,7 +42,7 @@ nav a{
 }
 
 a:hover{
-    color: black;
+    color: #000099;
 }
 
 button a{ 
@@ -57,29 +64,26 @@ button a{
 .content{
     display: grid;
     grid-template-columns: 50% 50%;
+    padding-top: 10%;
+    align-items: center;
 }
 
 .text{
    
     font-size: 30px;
     text-align: center;
-    padding-top:350px;
-    margin-left: 20%;
 
 }
-.text h2{
-    background-color: white;
-    border-radius: 30px;
-}
+
 .text p{
     padding:3%;
 
 }
 .image{
-    
-    padding-bottom:300px;
-    margin-left: 20%;
-    margin-top:250px;
+    text-align: center;
+}
+.content-image{
+    width: 500px;
 }
 .button{
     color: black;
@@ -102,18 +106,19 @@ p{
     display: grid;
     grid-template-columns: 50% 50%;
     background-color:paleturquoise;
+    padding: 5%;
+    justify-items: center;
+    align-items: center;
 }
 .column2{
-    width: 70%;
     font-size:30px;
     text-align: center;
-    margin-top:350px;
-    margin-left: 10%;
 }
-.column1{
-    margin-left:200px;
-    margin-top:200px;
+.column1 img{
+border-radius: 100px;
+width: 400px;
 }
+
 
 /* //skills page// */
 
@@ -122,19 +127,19 @@ p{
 #skills{
     display: grid;
     grid-template-columns: 50% 50%;
-   
+    padding: 5%;
+    align-items: center;
+    justify-items: center;
     
 }
 #skills li{
-    list-style-type:disc;
+    list-style-type:none;
 
 }
 .skil{
      font-size: 40px;
     text-align: center;
     padding: 100px;
-    margin-top:30%;
-    margin-left: 30%;
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 20%;
@@ -150,27 +155,24 @@ p{
     background-color: azure;
      
 }
-.image5{
-    padding-top: 40%;
-  
-    margin-left:200px;
-
-}
 
 /* ==project page==== */
+
+
+
 #projects{
     text-align: center;
     display: grid;
-    grid-template-rows:25% 50% 25% ;
+   padding: 10% 5% 10% 5%;
 }
 #projects h2{
     font-size: 3em;
-    padding-top:180px;
+  
   
 }
 
 .image-box{
-    margin-top: 7%;
+    
     display: flex;
     justify-content: space-around;
 }
@@ -181,13 +183,14 @@ p{
     border-radius: 7px;
     background-color: rgb(142, 201, 199);
     transition: .3s;
-   height: 250px;
-   width: 350px;
+   height: fit-content;
+   width: fit-content;
    cursor: pointer;
+   padding: 2%
    
 }
 .img-box img{
-    margin-top:5%;
+   width: 20vw;
 }
 .img-box:hover{
     scale: 1.2;
@@ -202,29 +205,157 @@ p{
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: paleturquoise;
+    justify-items: center;
+    align-items: center;
 }
 .para1 p{
-    text-align: center;
+
     font-size: 30px;
-    margin-top:35px;
-   margin-left: 260px;
-   color:blue;
-    
+    margin-top: 2%;    
 }
 .para1 h2{
-    margin-left:20px;
-    text-align: center;
-    font-size: 50px;
-    margin-top: 350px;
-}
-.image4{
 
-    margin-top: 330px; 
-    padding-left: 200px;
+    font-size: 50px;
+
+}
+.image4 img{
+border-radius: 15%;
+width: 30vw;
 }
 .icons{
-    padding-bottom: 50px;
-    margin-left: 250px;
+    font-size:48px;
+    padding-right: 20px;
+}
 
 
+
+/* mobile screens */
+@media (max-width: 480px) {
+    .navbar{
+        font-size: 15px;
+        padding: 20px;    
+    }
+    nav a{
+       padding-left: 5px;
+    }
+
+    .text{
+        font-size: 15px;
+    }
+   
+    .content-image{
+        width: 45vw;
+    }
+    .button{
+        width: 50px;
+        height: 25px;
+        font-size: 8px;
+    }
+    .button:hover{
+        font-size: 8px;
+    }
+    .column2{
+        font-size: 10px;
+    }
+    .column1 img{
+        border-radius: 100px;
+        width: 40vw;
+        height: 80vh;
+        }
+        .skil{
+            font-size: 10px;
+           padding: 20px;
+       }
+
+       .image5 img{
+        width: 40vw;
+       }
+       .image-box {
+      
+        display: flex;
+        justify-content: space-around;
+    }
+    #projects h2{
+        font-size: 15px;
+    }
+    .img-box img{
+        height: 25vh;
+     }
+     .para1 p{
+
+        font-size: 10px;
+        margin-top: 2%;    
+    }
+    .para1 h2{
+    
+        font-size: 15px;
+    
+    }
+    .icons{
+        font-size:28px;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    .navbar{
+        font-size: 15px;
+        padding: 20px;    
+    }
+    nav a{
+       padding-left: 5px;
+    }
+    
+    .text{
+        font-size: 15px;
+    }
+   
+    .content-image{
+        width: 45vw;
+    }
+    .button{
+        width: 50px;
+        height: 25px;
+        font-size: 8px;
+    }
+    .button:hover{
+        font-size: 8px;
+    }
+    .column2{
+        font-size: 10px;
+    }
+    .column1 img{
+        border-radius: 100px;
+        width: 40vw;
+        height: 80vh;
+
+        }
+        .skil{
+            font-size: 20px;
+           padding: 20px;
+       }
+
+       .image5 img{
+        width: 40vw;
+       }
+       #projects h2{
+        font-size: 15px;
+    }
+    .img-box img{
+        height: 25vh;
+     }
+     .para1 p{
+
+        font-size: 10px;
+        margin-top: 2%;    
+    }
+    .para1 h2{
+    
+        font-size: 15px;
+    
+    }
+    .icons{
+        font-size:28px;
+        padding-right: 20px;
+    }
 }
