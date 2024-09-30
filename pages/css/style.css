@@ -164,6 +164,7 @@ width: 400px;
     text-align: center;
     display: grid;
    padding: 10% 5% 10% 5%;
+   background-color:rgb(142, 201, 199) ;
 }
 #projects h2{
     font-size: 3em;
@@ -204,7 +205,7 @@ width: 400px;
 #contact{
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: paleturquoise;
+  
     justify-items: center;
     align-items: center;
 }
@@ -296,6 +297,7 @@ width: 30vw;
         padding-right: 20px;
     }
 }
+/* tablets and desktop */
 
 @media (min-width: 481px) and (max-width: 767px){
     .navbar{
