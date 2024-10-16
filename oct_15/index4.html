@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Item Example</title>
+</head>
+
+<body>
+    <ul id="itemList">
+        <li class="list-item">Item 1</li>
+        <li class="list-item">Item 2</li>
+        <li class="list-item">Item 3</li>
+    </ul>
+    <button id="removeItemsButton">Remove Items</button>
+    <script>
+        const list = document.querySelector("li");
+        const button = document.getElementById("removeItemsButton");
+
+        button.addEventListener("click", () => {
+            list.remove();
+        });
+    </script>
+</body>
+
+</html>

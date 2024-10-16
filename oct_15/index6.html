@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Text Color</title>
+</head>
+
+<body>
+    <p class="text">This is a sample text.</p>
+    <button id="colorChangeButton">Change Text Color</button>
+    <script>
+        const text = document.querySelector("p");
+        const button = document.getElementById("colorChangeButton");
+
+        button.addEventListener("click", () => {
+            text.style.color = "grey";
+        });
+    </script>
+</body>
+
+</html>
