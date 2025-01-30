@@ -7,6 +7,8 @@
     <title>home</title>
     <link rel="stylesheet" href="./pages/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.3.4/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 
@@ -16,38 +18,42 @@
 
 
 
-<body class="home" id="home">
-    <div class="container">
-        <div class="navbar">
-            <header>
-                <nav>
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
-                </nav>
-            </header>
-        </div>
+<body class="home" id="home" >
+
+    <div class="navbar">
+        <header>
+            <nav >
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+    </div>
+    <div class="container"data-aos="fade-right">
+
         <div class="content">
-            <div class="text">
+
+            <div   class="text">
                 <h2>Hey, I am Jumana</h2>
                 <p>A web developer with good experience and <br>
                     skills in web development.</p>
-                <button type="submit" class="button"><a href="mailto:jumana.hikmathulla@fssa.freshworks.com">Hire Me</a></button>
+                <button type="submit" class="button"><a href="mailto:jumana.hikmathulla@fssa.freshworks.com">Hire
+                        Me</a></button>
             </div>
-            <div class="image"> <img src="../assets/Laptop-PNG.png" class="content-image"></div>
+            <!-- <div class="image"> <img src="" class="content-image"></div> -->
 
         </div>
     </div>
 
 
 
-<!-- //about page// -->
+    <!-- //about page// -->
 
 
 
-    <div class="container2 container" id="about">
+    <div class="container2 container" id="about" data-aos="fade-left">
 
         <div class="column1">
             <img src="../assets/jumm.jpg">
@@ -61,68 +67,149 @@
                 me appreciate even more. In this field I hope it was helpful for my great future.
             </p>
         </div>
+
     </div>
 
 
 
-<!-- //skills page// -->
+    <!-- //skills page// -->
 
 
 
-    <div id="skills" class="container">
+    <div id="skills" class="container" data-aos="fade-right">
         <div class="skil">
-            <h2>Skills</h2>
+
             <ul>
-                <li>Html</li>
-                <li>Css</li>
-                <li>Javascript</li>
+                <li>
+                    <div class="skill-item">
+                        <span>HTML</span>
+                        <Span class="percent">90%</Span>
+                        <div class="progress-bar">
+                            <div class="progress html"></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-item">
+                        <span>CSS</span>
+                        <Span class="percent">75%</Span>
+                        <div class="progress-bar">
+                            <div class="progress css"></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <Span class="percent">55%</Span>
+                        <div class="progress-bar">
+                            <div class="progress js"></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-item">
+                        <span>SQL</span>
+                        <Span class="percent">75%</Span>
+                        <div class="progress-bar">
+                            <div class="progress sql"></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-item">
+                        <span>Python</span>
+                        <Span class="percent">75%</Span>
+                        <div class="progress-bar">
+
+                            <div class="progress Python"></div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="skill-item">
+                        <span>Life Skills</span>
+                        <Span class="percent">55%</Span>
+                        <div class="progress-bar">
+                            <div class="progress life-skills"></div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="skill-item">
+                        <span>English</span>
+                        <Span class="percent">55%</Span>
+                        <div class="progress-bar">
+                            <div class="progress english"></div>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
-        <div class="image5">
-            <img src="./assets/htmlcssjs-overview-removebg-preview.png">
-        </div>
-    </div>
     </div>
 
 
-<!-- projects page -->
- <div id="projects" class="container">
-    <h2>PROJECTS</h2>
-    <div class="image-box">
-        <div class="img-box">
-            <img src="./assets/screencapture-127-0-0-1-3000-index-html-2024-09-06-15_20_55.png" height="200px">
-        </div>
-        <div class="img-box">
-            <img src="./assets/Screenshot (3).png" height="200px">
-        </div>
-        <div class="img-box">
-            <img src="./assets/Screenshot (6).png" height="200px" >
-        </div>
 
+    <!-- projects page -->
+    <div id="projects" class="container"data-aos="fade-left">
+
+        <div class="project">
+
+            <div class="img-box">
+                <img src="./assets/Screenshot (34).png" height="300px" width="600px">
+            </div>
+            <div class="content-box">
+                <div class="paragraph">
+                    CineCloud is an innovative OTT (Over-The-Top) platform
+                    designed to enhance the movie-watching experience.
+                    It features a user-friendly interface, advanced search functionality, wishlist options, and seamless
+                    streaming for movie trailers.
+                    Built with modern web technologies, this project demonstrates my skills in full-stack development
+                    and UI/UX design.
+                </div>
+                <button type="submit" class="buttonpro"><a href="https://cinecloud-theta.vercel.app/">View
+                        Project</a></button>
+            </div>
+        </div>
     </div>
- </div>
+
+    <!-- //contact page// -->
 
 
-    
-<!-- //contact page// -->
-
-
-    <div id="contact" class="container">
+    <div id="contact" class="container" data-aos="fade-right">
         <div class="para1">
             <h2>Contact me</h2>
             <p>jumana.hikmathulla@fssa.freshworks.com</p>
             <div class="icons">
-                <a href="https://www.instagram.com/"><i class="fa fa-instagram" ></i></a>
-                <a href="https://www.linkedin.com/in/jumana-hikmathulla-69790432b/"><i class="fa fa-linkedin-square" ></i></a>
-                <a href="https://github.com/Jumana-aj"><i class="fa fa-github" ></i></a>
+                <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/jumana-hikmathulla-69790432b/"><i
+                        class="fa fa-linkedin-square"></i></a>
+                <a href="https://github.com/Jumana-aj"><i class="fa fa-github"></i></a>
             </div>
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="6f9e160d-66a3-470b-8bc5-6f6193704140">
+            
+                <input type="text" name="name" required placeholder="Name">
+                <input type="email" name="email" required placeholder="Email">
+                <textarea name="message" required placeholder="Message"></textarea>
+                <button type="submit">Submit Form</button>
+            
+            </form>
         </div>
 
-        <div class="image4">
+        <!-- <div class="image4">
             <img src="../assets/images.jpg">
-        </div>
+        </div> -->
     </div>
-    
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
