@@ -11,7 +11,7 @@ body {
 }
 
 .home {
-    background-image: url(../../assets/f6b9f7e5f67692524663a0b90956e0ab.jpg);
+    background-image: url(../../assets/photo-1557683316-973673baf926.jpg);
     background-repeat: no-repeat;
     background-size: 100vw;
 }
@@ -122,7 +122,7 @@ p {
 .container2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-image: url(../../assets/f6b9f7e5f67692524663a0b90956e0ab.jpg);
+    background-image: url(../../assets/photo-1557683316-973673baf926.jpg);
     background-repeat: no-repeat;
     background-size: 100vw;
     background-position: center;
@@ -228,18 +228,25 @@ p {
 }
 
 #skills {
-    background-image: url(/assets/f6b9f7e5f67692524663a0b90956e0ab.jpg);
+    background-image: url(/assets/photo-1557683316-973673baf926.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 16%;
-    border-radius: 12px;
+ 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
 }
-
+.skill-heading{
+position: relative;
+left: 45%;
+bottom: 15%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 50px;
+}
 .skill-item .percent {
     font-size: 18px;
     font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #ffffff;
     float: right;
 }
@@ -258,6 +265,7 @@ p {
 .skill-item span {
     font-size: 18px;
     font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #ffffff;
 }
 
@@ -335,10 +343,11 @@ ul::-webkit-scrollbar-track {
 
 #projects {
     text-align: left;
-    display: flex;
-    justify-content: center;
+     display: flex;
+    justify-content: center; 
     padding: 10% 5%;
-    background-image: url(../../assets/f6b9f7e5f67692524663a0b90956e0ab.jpg);
+    
+    background-image: url(../../assets/photo-1557683316-973673baf926.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -347,9 +356,16 @@ ul::-webkit-scrollbar-track {
     display: block;
     color: #000000;
     font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 20px;
 }
+.pro-heading{
+    position:relative;
+    bottom: 10%;
+    left: 40%;
+    font-size: 30px;
 
+}
 .project {
     display: flex;
     justify-content: space-between;
@@ -369,7 +385,7 @@ ul::-webkit-scrollbar-track {
 .img-box img {
     width: 100%;
     border-radius: 10px;
-    border: 2px solid #ffd700;
+    border: 2px solid #000000;
 }
 
 .content-box {
@@ -381,6 +397,7 @@ ul::-webkit-scrollbar-track {
 
 .paragraph {
     font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #333;
     line-height: 1.6;
     text-align: justify;
@@ -392,7 +409,7 @@ ul::-webkit-scrollbar-track {
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
-    background-color: #ffd700;
+    background-color: #141414;
     padding: 10px 20px;
     border-radius: 10px;
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -401,12 +418,12 @@ ul::-webkit-scrollbar-track {
 }
 
 .buttonpro:hover {
-    background-color: #ff9900;
+    background-color: #57595e;
     transform: scale(1.1);
 }
 
 .buttonpro a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -435,14 +452,14 @@ ul::-webkit-scrollbar-track {
 }
 
 #contact {
-    background-image: url(/assets/f6b9f7e5f67692524663a0b90956e0ab.jpg);
+    background-image: url(/assets/photo-1557683316-973673baf926.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .para1 h2 {
-    font-size: 40px;
-    color: #333;
+    font-size: 60px;
+    color: #000000;
     font-weight: 600;
     text-align: center;
     position: relative;
@@ -450,7 +467,7 @@ ul::-webkit-scrollbar-track {
 }
 
 .para1 p {
-    font-size: 18px;
+    font-size: 30px;
     color: #060505;
     text-align: center;
     margin-bottom: 20px;
@@ -461,7 +478,7 @@ ul::-webkit-scrollbar-track {
 .icons {
     text-align: center;
     position: relative;
-    top: 75%;
+    top: 70%;
 }
 
 .icons a {
@@ -523,3 +540,7 @@ button:hover {
 button:active {
     transform: scale(0.98);
 }
+
+
+
+
