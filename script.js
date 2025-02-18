@@ -11,12 +11,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// 2. AOS Initialization (Animate On Scroll)
-AOS.init({
-    duration: 1000, // Duration of animation
-    once: true, // Animation triggers only once
-    mirror: false // Don't animate on scroll back up
-});
+// // 2. AOS Initialization (Animate On Scroll)
+// AOS.init({
+//     duration: 1000, // Duration of animation
+//     once: true, // Animation triggers only once
+//     mirror: false // Don't animate on scroll back up
+// });
 
 // 3. Form Validation for Contact Form
 document.querySelector("form").addEventListener("submit", function(e) {
